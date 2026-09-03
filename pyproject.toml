@@ -3,7 +3,7 @@ name = "usb-relay-diustou"
 version = "0.1.0"
 description = "USB relay control library for Diustou USB relay devices"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "pyserial>=3.5",
 ]
