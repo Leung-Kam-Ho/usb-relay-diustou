@@ -1,4 +1,4 @@
-from usb_relay import main
+from usb_relay_diustou import USB_RELAY
 
 if __name__ == "__main__":
-    main()
+    USB_RELAY().toggle(100)

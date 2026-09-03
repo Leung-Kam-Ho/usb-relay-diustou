@@ -1,9 +1,19 @@
 [project]
 name = "usb-relay-diustou"
 version = "0.1.0"
-description = "Add your description here"
+description = "USB relay control library for Diustou USB relay devices"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "pyserial>=3.5",
 ]
+
+[project.scripts]
+usb-relay-diustou = "usb_relay_diustou.core:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["usb_relay_diustou"]
