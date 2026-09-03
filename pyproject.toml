@@ -1,6 +1,6 @@
 [project]
 name = "usb-relay-diustou"
-version = "0.1.0"
+version = "0.1.1"
 description = "USB relay control library for Diustou USB relay devices"
 readme = "README.md"
 requires-python = ">=3.12"
